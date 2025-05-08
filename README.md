@@ -48,8 +48,10 @@ Babel leverages several open-source models as modality-specific encoders. We gra
 
 | Modality   | Encoder              | Source & Reference |
 |------------|----------------------|---------------------|
-| Wi-Fi      | ViT, CNN+GRU | [WiFi-CSI-Sensing-Benchmark](https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark) |
-| Skeleton   | ST-GCN               | [ST-GCN GitHub (yysijie)](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md) |
+| Wi-Fi      | ViT, CNN+GRU         | [WiFi-CSI-Sensing-Benchmark](https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark) |
+| Skeleton   | ST-GCN               | [ST-GCN GitHub ](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md) |
+| IMU        | LIMU-BERT            | [LIMU-BERT GitHub ](https://github.com/dapowan/LIMU-BERT-Public) |
+
 
 > 🔍 These encoders are integrated as pre-trained modality towers (frozen or fine-tuned) within the Babel alignment framework. Please consult their original repositories for licensing and reuse terms.
 
