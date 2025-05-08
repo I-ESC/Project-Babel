@@ -6,6 +6,8 @@ This repository provides an implementation (codebase and pre-trained weights) fo
 
 ---
 
+![multi-modality alignment by Babel](./arts/modality_alignment_illustration-crop.png)
+
 ## 🔧 Key Features
 
 - **Expandable Modality Alignment**: Decomposes N-way alignment into sequential binary alignment stages using shared modalities.
