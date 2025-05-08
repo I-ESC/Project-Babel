@@ -1,6 +1,6 @@
 # 📡 Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment
 
-This repository provides the codebase and pre-trained models for **[Babel](https://arxiv.org/pdf/2407.17777)**, a scalable foundation model for multi-modal sensing. Babel aligns six sensing modalities — **Wi-Fi**, **mmWave**, **IMU**, **LiDAR**, **video**, and **depth/skeleton** — using a novel **expandable modality alignment** framework that enables sequential, pairwise alignment using partially paired datasets.
+This repository provides an implementation (codebase and pre-trained weights) for **[Babel](https://arxiv.org/pdf/2407.17777)**, a scalable foundation model for multi-modal sensing. Babel aligns six sensing modalities — **Wi-Fi**, **mmWave**, **IMU**, **LiDAR**, **video**, and **depth/skeleton** — using a novel **expandable modality alignment** framework that enables sequential, pairwise alignment using partially paired datasets.
 
 > 📰 **Paper:** [SenSys 2025](https://arxiv.org/pdf/2407.17777)
 
@@ -96,11 +96,17 @@ bash run_eval.sh
 If you use this repo, please cite our paper:
 
 ```bibtex
-@article{dai2024advancing,
-  title={Advancing Multi-Modal Sensing Through Expandable Modality Alignment},
-  author={Dai, Shenghong and Jiang, Shiqi and Yang, Yifan and Cao, Ting and Li, Mo and Banerjee, Suman and Qiu, Lili},
-  journal={arXiv preprint arXiv:2407.17777},
-  year={2024}
+@inproceedings{babel_sensys_25,
+  author = {Dai, Shenghong and Jiang, Shiqi and Yang, Yifan and Cao, Ting and Li, Mo and Banerjee, Suman and Qiu, Lili},
+  title = {Babel: A Scalable Pre-trained Model for Multi-Modal Sensing via Expandable Modality Alignment},
+  year = {2025},
+  isbn = {37150143722068},
+  publisher = {Association for Computing Machinery},
+  address = {Irvine, CA, USA},
+  url = {https://doi.org/10.1145/3715014.3722068},
+  doi = {3715014.3722068},
+  booktitle = {Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems},
+  series = {SenSys '25},
 }
 ```
 
