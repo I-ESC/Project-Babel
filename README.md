@@ -33,9 +33,14 @@ pip install -r requirements.txt
 ---
 ### 📥 Available Checkpoints
 
-We provide a pre-trained alignment model for the following modality order:
+We provide a pre-trained alignment model following the **modality alignment order**:
 
-> ✅ `offline_expandood_offline_expandmmwave_MMFi_dataset_offline_expand_offline_expandcsi`
+> ✅ **IMU → Skeleton → mmWave → LiDAR → Video → Wi-Fi**
+
+This corresponds to the folder name:
+
+> `offline_expandood_offline_expandmmwave_MMFi_dataset_offline_expand_offline_expandcsi`
+
 
 The trained model checkpoints for this order are available at:  
 [📁 Google Drive (alignment_runs_0624)](https://drive.google.com/drive/folders/19pRwJ_4aC0jfEaowILLreBIYGgfMj5eZ?usp=sharing)
